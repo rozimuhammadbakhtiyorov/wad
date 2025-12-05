@@ -39,3 +39,39 @@ next-env.d.ts
 # convex
 .convex/
 convex/_generated/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.eslintcache
+
+# OS files
+Thumbs.db
+.env.*.local
+.cache/
+
+# Dependencies
+.pnpm-debug.log*
+
+# Testing
+.nyc_output/
+*.lcov
+
+# Logs
+logs/
+*.log
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Temporary files
+*.tmp
+*.temp
